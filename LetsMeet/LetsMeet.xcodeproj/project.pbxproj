@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		539F6F1D26D6B6E200B9A747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539F6F1B26D6B6E200B9A747 /* Main.storyboard */; };
 		539F6F1F26D6B6E300B9A747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539F6F1E26D6B6E300B9A747 /* Assets.xcassets */; };
 		539F6F2226D6B6E300B9A747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539F6F2026D6B6E300B9A747 /* LaunchScreen.storyboard */; };
+		539F6F2A26D6B86000B9A747 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 539F6F2926D6B86000B9A747 /* GoogleService-Info.plist */; };
 		8D4E8BE23FE0B36BBB85F8BF /* Pods_LetsMeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D0E7B0C4FFC091C3126924 /* Pods_LetsMeet.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		539F6F1E26D6B6E300B9A747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		539F6F2126D6B6E300B9A747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		539F6F2326D6B6E300B9A747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		539F6F2926D6B86000B9A747 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE4AD81AC8847C45F216E64C /* Pods-LetsMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsMeet.debug.xcconfig"; path = "Target Support Files/Pods-LetsMeet/Pods-LetsMeet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +50,6 @@
 				DE4AD81AC8847C45F216E64C /* Pods-LetsMeet.debug.xcconfig */,
 				45A3E89E1B67B362174EAF14 /* Pods-LetsMeet.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -78,6 +79,7 @@
 				539F6F1926D6B6E200B9A747 /* ViewController.swift */,
 				539F6F1B26D6B6E200B9A747 /* Main.storyboard */,
 				539F6F1E26D6B6E300B9A747 /* Assets.xcassets */,
+				539F6F2926D6B86000B9A747 /* GoogleService-Info.plist */,
 				539F6F2026D6B6E300B9A747 /* LaunchScreen.storyboard */,
 				539F6F2326D6B6E300B9A747 /* Info.plist */,
 			);
@@ -152,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				539F6F2226D6B6E300B9A747 /* LaunchScreen.storyboard in Resources */,
+				539F6F2A26D6B86000B9A747 /* GoogleService-Info.plist in Resources */,
 				539F6F1F26D6B6E300B9A747 /* Assets.xcassets in Resources */,
 				539F6F1D26D6B6E200B9A747 /* Main.storyboard in Resources */,
 			);
@@ -359,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B92BAJFGJP;
 				INFOPLIST_FILE = LetsMeet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B92BAJFGJP;
 				INFOPLIST_FILE = LetsMeet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

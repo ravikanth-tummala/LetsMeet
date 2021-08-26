@@ -489,7 +489,6 @@ PODS:
   - GTMSessionFetcher/Core (1.6.1)
   - InputBarAccessoryView (5.3.1):
     - InputBarAccessoryView/Core (= 5.3.1)
-  - InputBarAccessoryView/Core (5.3.1)
   - leveldb-library (1.22.1)
   - MessageKit (3.6.1):
     - InputBarAccessoryView (~> 5.3.1)
@@ -578,6 +577,6 @@ SPEC CHECKSUMS:
   Shuffle-iOS: ff33658fb1e5eebd6a4724c156473e63754be9cb
   SKPhotoBrowser: 6aaa8f232752e87c7e76bace183bead0a137097d
 
-PODFILE CHECKSUM: d53f1b1091a9f7e5226e95ef9e63f8c50b888e22
+PODFILE CHECKSUM: ef3768484b0789c96d63348df78aa999c43f7e90
 
 COCOAPODS: 1.10.1
